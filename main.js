@@ -1,3 +1,3 @@
 document.addEventListener('load', () => {
-    document.getElementById('root').innerText= "charging";
+    document.getElementById('root').innerHTML = "charging";
 });
