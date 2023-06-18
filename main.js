@@ -1,4 +1,5 @@
-document.addEventListener('load', () => {
-    document.querySelector("#root").innerHTML = "charging...";
-    return true;
+var MainContainer = document.querySelector("#root");
+
+window.addEventListener('load', () => {
+    MainContainer.innerHTML = "<p>charging...</p>";
 });
