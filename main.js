@@ -1,3 +1,4 @@
 document.addEventListener('load', () => {
-    document.getElementById('root').innerHTML = "charging";
+    document.getElementById("root").innerHTML = "charging...";
+    return true;
 });
